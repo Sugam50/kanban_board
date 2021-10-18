@@ -1,0 +1,11 @@
+.nav{
+    background-color: #341948;
+    /* background-color: rgba(170, 170, 170, 0.616); */
+    max-width:inherit;
+    min-height: fit-content;
+    height: 70px;
+    padding: 20px 0px;
+    padding-left: 20px;
+   text-justify: center;
+   color:#9388A2
+}

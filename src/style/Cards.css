@@ -1,0 +1,50 @@
+.todo_card{
+    background-color: #9388A2;
+    padding: 20px;
+    width: 90%;
+    min-height: 150px;
+    border-radius: 10px;
+    height: 150px;
+    margin: 5px;
+    position: relative;
+}
+.todo_card .card_body input{
+    background-color: #9388A2;
+}
+.todo_card .moreCard{
+    position: absolute;
+    top:5px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.todo_card .moreCard .deleteBox{
+    display: visible;
+    position: absolute;
+    background-color: #BEAFC2;
+    top:5px;
+    right: 0px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 70px;
+    height: 30px;
+  }
+  .todo_card .moreCard .deleteBoxHide{
+    display: none;
+  }
+.card_title{
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.card_body p{
+    width: 100%;
+    padding: 5px;
+    margin: 2px 0px;
+}
+.card_body input{
+    width: 125px;
+    border: 0;
+}

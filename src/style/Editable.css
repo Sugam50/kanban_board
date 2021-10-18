@@ -1,0 +1,62 @@
+.Editable {
+  min-width: 300px;
+  min-height: 40px;
+  height: 40px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  border-radius: 57px;
+  background-color: #9388a2;
+  border: 2px solid #341948;
+}
+.Editable_main {
+  min-width: 300px;
+  min-height: 40px;
+  margin: 10px;
+  padding: 10px;
+}
+.Editable:hover {
+  background-color: #beafc2;
+}
+
+.Add_box {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  height: 120px;
+  width: 100%;
+  background-color: #9388A2;
+  border-radius: 10px;
+  border: 2px solid #341948;
+}
+.Add_box input {
+  width: 90%;
+  height: 30px;
+  border-radius: 2px;
+  margin: 10px;
+  padding: 10px;
+  background-color: #695E93;
+  border: none;
+}
+.Add_box input:focus { 
+  outline: none !important;
+  border-color: #695E93;
+  box-shadow: 0 0 10px #695E93;
+}
+.Add_box input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #281338;
+}
+.Add_box button {
+  width: 20%;
+  height: 30px;
+  margin: 10px;
+  border-radius: 41px;
+  padding: auto;
+  cursor: pointer;
+  background: #BEAFC2;
+  border: 1px solid #341948;
+}
+.Add_box svg {
+  cursor: pointer;
+}
