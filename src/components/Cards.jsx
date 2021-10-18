@@ -10,12 +10,12 @@ function Cards(props) {
 
   const HandleDragStart = (e, id, title) => {
     let delId =id
-    e.dataTransfer.setData(delId, "id");
     e.dataTransfer.setData("title", title);
+    e.dataTransfer.setData(delId, "id");
     e.dataTransfer.setData("id", id);
   };
   const HandleDragOver = (e) => {
-    let id= parseFloat(e.dataTransfer.types[2]);
+    let id= parseFloat(e.dataTransfer.types[1]);
     e.preventDefault();
     HandleDelete(id);
   };
