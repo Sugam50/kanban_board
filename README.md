@@ -1,3 +1,31 @@
+
+# Kanban Board
+
+This is a Kanban Board where you can add TODO's category wise.
+
+Visit Kanban Board:-
+[![Click Here](https://kanbantodoboard.netlify.app/)](https://kanbantodoboard.netlify.app/)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/Sugam50/kanban_board.git
+```
+
+Go to the project directory
+
+```bash
+  cd kanban_board
+```
+
+Start the server
+
+```bash
+  open in liveserver
+```
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
